@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules",
+        "vendor",
+        "public/metronic_v5.0.5"
+    ]
+}

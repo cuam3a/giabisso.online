@@ -1,0 +1,17 @@
+{
+  "name": "Home Express center",
+  "authors": [
+    "Carolina Bracamonte <carolina@dpointweb.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

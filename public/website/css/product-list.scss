@@ -1,0 +1,77 @@
+$green: #5aa407;
+$green-hover: #519504;
+$text-color: #212529;
+$btnborder:#eeeeee;
+$btnbg:#f7f7f7;
+$colPagination:#495057;
+
+nav.navbar.paginado{    
+    align-items: center;
+    border-bottom: 3px solid #f2f2f2;
+    display: flex;
+    flex-direction:row;
+    margin-top:35px;
+    padding:15px;
+    .previousBtn,.nextBtn{
+        color:$colPagination;
+        text-decoration:none;
+        i{
+            border:1px solid $btnborder;
+            font-weight: 700!important;
+            padding:10px;
+            &.la-angle-left{
+                margin-right:15px;
+            }
+            &.la-angle-right{
+                margin-left:15px;
+            }
+        }
+        &:hover{
+            color:$text-color;
+            font-weight: bolder;
+            i{                
+                background-color: $btnbg;
+                color:$green;
+            }
+        }
+    }
+    ul.pagination{
+        li{
+            font-size:20px;
+            padding:10px;
+            &:first-child,
+            &:last-child{
+                display:none;
+            }
+            &.active span{                
+             color:$green;
+             font-weight: 700;
+            }
+            a{
+                color:$text-color!important;
+                text-decoration: none;
+                &:hover{
+                    font-weight:700;
+                }
+            }
+        }        
+    }
+}
+
+
+@media (min-width: 576px){}
+@media (max-width: 768px){
+    nav.navbar.paginado{
+        display:flex;
+        flex-direction:column;
+        margin:10px 0;
+        a,span{
+            padding:10px 0;
+        }
+        ul.pagination{
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 992px){}
+@media (min-width: 1200px){}

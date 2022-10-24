@@ -1,0 +1,45 @@
+.box-date{
+    text-align: center;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.box-messages{
+    background-color: #f3f2f2;
+    padding: 30px 10px;
+    max-height: 300px;
+    overflow: auto;
+    .box-message{
+        width: 80%;
+        background-color: #dedeff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        &.me{
+            background-color: white;
+            margin-left: 20%;
+        }
+        .name{
+            font-weight: 600;
+        }
+        pre{
+            font-family: inherit;
+            font-size: inherit;
+            margin-top: 5px;
+            margin-bottom: 0;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+        }
+    }
+
+    .date-info{
+        font-size: 11px;
+        overflow: hidden;
+        span{
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,142 @@
+$borderOrder:#e8e8e8;
+$primary:#5aa407;
+$primary-hover:#519504;
+$primary-border:#007636;
+$main-color:#4a4a4a;
+$grey:#fbfbfb;
+
+.cart-sidebar{
+    background:$grey;
+    h4{            
+        display: block;
+        margin-bottom:20px;
+        &.wborder{
+            border-bottom:2px solid $borderOrder;            
+            padding: 10px 20px;
+        }
+    }
+    h5{
+        color:$main-color;
+        font-weight:700;
+        padding:1.0rem  1.1rem;
+    }
+    .btn-primary {
+        border-bottom: 5px solid $primary-border;
+        font-size:20px;
+    }
+    .cart-content{
+        .item { 
+            padding:15px 0;
+             &:not(.title){
+                .name{
+                    padding-left:34px;
+                } 
+            }           
+            div{
+                display: inline-block;
+            }
+            &.title,&.delivery{
+                .name{            
+                    font-size:20px;            
+                    font-weight:600;
+                }
+            }
+            .price{
+                font-weight:600;
+                float: right;
+                text-align: right;
+            }
+        }
+    }
+    .shipping{
+            .item {             
+                div{
+                    display: inline-block;
+                    padding: 10px 20px;
+                    &.name{
+                        font-size:20px;
+                        font-weight: 700;
+                        width:30%;
+                    }
+                    &.price{
+                        font-weight:600;
+                        float: right;
+                        text-align: right;
+                        width:70%;
+                    }
+                }
+            }
+        }
+    .total,.conditions{
+        border-top: 3px solid $borderOrder;
+        background-color:#f8f8f8!important;
+        font-size:22px;
+        padding: 15px 20px;
+        div{
+            display: inline-block;
+        }
+        .name{
+            width:30%;
+        }
+        .price{
+            font-weight:600;
+            float: right;
+        }
+        .text{
+            font-size:16px;
+            padding-left:10px;
+            a{
+                color:$primary;
+            }
+            .form-check-input {
+                position: absolute;
+                margin: 1.1rem 0;
+            }
+        }
+    }
+    .card{
+        background-color:$grey;
+        border:none;
+        border-radius:0;
+        margin-bottom:5px;
+        padding: 0;
+        .card-header{
+            background-color:$grey;
+            border-bottom:none;
+            padding: 1rem 3rem!important;
+            h5{
+                padding: 0;
+                a{
+                    color:$main-color;
+                    display: block;
+                    text-decoration: none;
+                    .form-check-input{
+                        margin-top:.4rem;
+                    }
+                    .arrow {
+                        float:right;
+                        &:before{                        
+                            content: "\f110";
+                            color: #9d9d9d;
+                            font-family: LineAwesome; 
+                            font-size:1rem;
+                            display: inline-block;
+                            transition: all 0.5s;
+                        }
+                    }               
+                }
+            }
+            &.active .arrow{        
+                &:before {    
+                    -webkit-transform: rotate(180deg);
+                    -moz-transform: rotate(180deg);
+                    transform: rotate(180deg);
+                }
+            } 
+        }
+        .card-body{
+            padding:0 3rem;
+            text-align: justify;
+        }
+    }
+}

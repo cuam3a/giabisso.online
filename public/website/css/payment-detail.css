@@ -1,0 +1,64 @@
+section.payment-detail {
+  color: #757575;
+  padding: 30px 0;
+}
+section.payment-detail .table-products thead th {
+  border: none;
+  color: #212529;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+section.payment-detail .table-products tr.heading td {
+  background-color: #f9f9f9;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+section.payment-detail .table-products tr.heading td:first-child, section.payment-detail .table-products tr.heading td:nth-last-child(2), section.payment-detail .table-products tr.heading td:last-child {
+  width: 15%;
+}
+section.payment-detail .table-products tr td {
+  vertical-align: middle !important;
+}
+section.payment-detail .table-products tr td:first-child, section.payment-detail .table-products tr td:nth-last-child(2), section.payment-detail .table-products tr td:last-child {
+  text-align: center;
+}
+section.payment-detail .table-products tr td:last-child, section.payment-detail .table-products tr td small {
+  font-weight: 700;
+}
+section.payment-detail .table-products tr img {
+  margin-right: 20px;
+  max-height: 80px;
+}
+section.payment-detail .total {
+  border: 1px solid #cacaca;
+  margin-bottom: 20px;
+  padding: 15px 0 5px;
+}
+section.payment-detail .total label, section.payment-detail .total span {
+  font-size: 14px !important;
+  font-weight: 600;
+  float: right;
+}
+section.payment-detail .total label.totalLbl, section.payment-detail .total span.totalLbl {
+  font-size: 20px !important;
+}
+section.payment-detail .pay-detail, section.payment-detail .delivery {
+  border-top: 1px solid #cacaca;
+}
+section.payment-detail .delivery {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+section.payment-detail .pay-detail .table th, section.payment-detail .pay-detail .table td {
+  font-weight: 400 !important;
+  padding: 4px 10px;
+  text-align: left !important;
+}
+section.payment-detail .pay-detail .table th a:hover, section.payment-detail .pay-detail .table td a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=payment-detail.css.map */

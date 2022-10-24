@@ -1,0 +1,51 @@
+.login {
+  padding: 0px 0px 40px;
+  text-align: center;
+}
+.login .required {
+  color: #d11932;
+}
+.login .title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.login input:not([type=checkbox]) {
+  height: 40px;
+  background: #f2f2f2;
+}
+.login a {
+  color: #757575;
+  text-decoration: underline;
+}
+.login .form-check-label .form-check-input {
+  margin-top: 0.4rem !important;
+}
+.login button[type=submit] {
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-transform: uppercase;
+  background: #f7921e;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s all;
+}
+.login button[type=submit]:hover {
+  background: #e78b21;
+}
+.login button[type=submit].green {
+  background: #67ad41;
+}
+.login button[type=submit].green:hover {
+  background: #5d9e3a;
+}
+
+@media (min-width: 768px) {
+  .login {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,5 @@
+/vendor
+/database/migrations
+/tests
+/public/metronic_v5.0.5/theme/angular
+/public/metronic_v5.0.5/docs

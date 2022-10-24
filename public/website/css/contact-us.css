@@ -1,0 +1,23 @@
+section.contact-us .contact-col textarea {
+  resize: none;
+}
+section.contact-us .contact-col label.contatc-title {
+  color: #717171;
+}
+section.contact-us .contact-col .btnContactSend {
+  letter-spacing: 1px;
+  width: 85%;
+}
+section.contact-us .info-col .line-top-separator {
+  border-top: 3px solid #f2f2f2;
+  margin-top: 11px;
+}
+section.contact-us .info-col p.sub-title-gray {
+  padding-top: 5px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #717171;
+}
+
+/*# sourceMappingURL=contact-us.css.map */

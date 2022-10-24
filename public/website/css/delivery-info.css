@@ -1,0 +1,10 @@
+section.delivery-info h4:not(.cart) {
+  border-bottom: 1px solid #019245;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+section.delivery-info .facturacion {
+  display: none;
+}
+
+/*# sourceMappingURL=delivery-info.css.map */

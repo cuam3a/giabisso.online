@@ -1,0 +1,189 @@
+html,body {
+    display: block;
+    width: 100%;
+    margin: 0;
+    overflow-x: scroll;
+ }
+
+.navbarjat {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+ }
+
+ .navjat-item {
+    display: inline-block;
+    font: 13px/18px "proxima-nova", "open-sans", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ .navjat{
+    display: inline-block;
+    position: relative;
+    top: 13px;
+ }
+
+ .headerjat{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+    width: 94%;
+ }
+
+ .logo-wrapper {
+    display: inline-block;
+    margin: 0 45px 0 0;
+    width: auto;
+    height: 100%;
+}
+
+.header-wrapper, .header-wrapper--no-margin {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-width: 1060px;
+    width: 100%;
+    background: transparent;
+    height: 106px;
+    margin-bottom: 0;
+}
+
+.headerjat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+    min-width: 1000px;
+    position: relative;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+}
+
+.uber-nav-wrapper {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+}
+
+#uber-nav {
+    box-sizing: border-box;
+    font: 13px/18px "proxima-nova", "open-sans", Arial, Helvetica, sans-serif;
+    height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header__container {
+    position: relative;
+}
+
+.utility {
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    bottom: 5px;
+}
+
+.group {
+    height: auto;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    height: 29px;
+    width: 46px;
+    transition-delay: .325s !important;
+    background-image: url(/assets/images/rh/rh-logo-black-2018.png);
+    background-image: url(/assets/images/rh/rh-logo-black-2018.svg), none;
+    background-size: 46px 29px;
+}
+
+.logo-wrapper {
+    display: inline-block;
+    margin: 0 45px 0 0;
+    width: auto;
+    height: 100%;
+}
+
+.uber-nav__brand a {
+    color: #999;
+    display: inline-block;
+    font: 13px/18px "proxima-nova", "open-sans", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 2px 0;
+    align-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.uber-nav__sub-brand a {
+    color: #999;
+    display: inline-block;
+    font: 10px/18px "proxima-nova", "open-sans", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 2px 0;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1061px)
+{
+    .page__full-width-layout .header-wrapper .header, .page__full-width-layout .header-wrapper--no-margin .header, .page__full-width-layout .header-wrapper .header-checkout, .page__full-width-layout .header-wrapper--no-margin .header-checkout, .page__full-width-layout .header-wrapper--no-margin .header, .page__full-width-layout .header-wrapper--no-margin .header-checkout {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1240px;
+        width: 94%;
+    }
+}
+
+.nav-jat
+{
+    -ms-text-justify: distribute-all-lines;
+	overflow: hidden;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+}
+
+.nav-jat li
+{
+    list-style-type: none;
+    display: inline;
+    margin:0px auto;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1061px)
+{
+.page__full-width-layout .header-wrapper .header, .page__full-width-layout .header-wrapper--no-margin .header, .page__full-width-layout .header-wrapper .header-checkout, .page__full-width-layout .header-wrapper--no-margin .header-checkout, .page__full-width-layout .header-wrapper--no-margin .header, .page__full-width-layout .header-wrapper--no-margin .header-checkout {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+    width: 94%;
+}
+}
+
+.header, .header-checkout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+    min-width: 1000px;
+    position: relative;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+section.faq {
+  margin-bottom: 40px;
+}
+section.faq body {
+  color: #4a4a4a;
+}
+section.faq .btn-primary {
+  background-color: #5aa407;
+  border-color: #5aa407;
+  padding: 10px 20px;
+}
+section.faq .btn-primary:hover {
+  background-color: #519504;
+  border-color: #519504;
+}
+section.faq p.contact_text {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+section.faq ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  transition: 0.2s all;
+}
+section.faq ul a {
+  color: #757575;
+  text-decoration: none;
+}
+section.faq h5 {
+  font-weight: 600;
+}
+section.faq .card {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+section.faq .card .card-header {
+  border-bottom: none;
+  padding: 0;
+}
+section.faq .card .card-header h5 a {
+  color: #4a4a4a;
+  display: block;
+  text-decoration: none;
+}
+section.faq .card .card-header h5 a .arrow {
+  background: #f0f2f3;
+  color: #5aa407;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 15px;
+}
+section.faq .card .card-header h5 a .arrow:before {
+  content: "";
+  font-family: LineAwesome;
+  font-size: 16px;
+  display: inline-block;
+  transition: all 0.5s;
+}
+section.faq .card .card-header.active .arrow {
+  background: #5aa407;
+  color: white;
+}
+section.faq .card .card-header.active .arrow:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+section.faq .card .card-body {
+  padding-left: 72px;
+  text-align: justify;
+}
+
+@media (min-width: 576px) {
+  .col-xs-12 {
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */

@@ -1,0 +1,40 @@
+//
+//** Demo Config
+//
+//== Layout Shared Settings
+$m-aside-left-width: 255px;
+$m-aside-left-width-minimize: 80px;
+$m-aside-left-offcanvas-width: 255px;
+.custom-file-control:lang(en):empty::after {
+    content: "Elige una imagen...";
+}
+
+.custom-file-control:lang(en)::before {
+    content: "Adjuntar";
+}
+
+.m-form .m-form__group>label.error,
+label.error {
+    color: red;
+}
+
+.btn.btn-default {
+    color: #575962;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+    &:hover {
+        background-color: #d1d2d5;
+    }
+    .la {
+        color: #36a3f7;
+    }
+}
+
+.m-portlet {
+    &.m-portlet--head-sm .m-portlet__body.children {
+        padding: 0!important;
+    }
+    .m-portlet__head.subcategory {
+        padding-left: 5.2rem!important;
+    }
+}

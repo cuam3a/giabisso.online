@@ -1,0 +1,1 @@
+<a  href="{{$href != "#" ? route($href) : $href}}" class="{{$class}}" data-title="Ingresar" data-msg="Accede a tu cuenta para concluir tu pedido" data-redirect="{{route($route)}}" >{{ $mesagge }}</a>

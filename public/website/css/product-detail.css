@@ -1,0 +1,282 @@
+@charset "UTF-8";
+ol.breadcrumb li a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.detail {
+  text-align: center;
+}
+.detail h1 {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #4b4b4b;
+}
+.detail .big-image-carousel img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.detail .multiple-items {
+  margin: 0px 25px;
+}
+.detail .multiple-items .slick-slide {
+  padding: 0px 5px;
+}
+.detail .multiple-items .slick-slide img {
+  border: 1px solid #f4f4f4;
+  padding: 2px;
+  width: 100%;
+}
+.detail .multiple-items .slick-arrow {
+  background: #f4f4f4;
+  height: 100%;
+  width: 25px;
+}
+.detail .multiple-items .slick-arrow.slick-prev::before, .detail .multiple-items .slick-arrow.slick-next::before {
+  font: normal normal normal 25px/1 FontAwesome;
+  color: #4b4b4b;
+}
+.detail .multiple-items .slick-arrow.slick-prev::before {
+  content: "";
+}
+.detail .multiple-items .slick-arrow.slick-next::before {
+  content: "";
+}
+.detail .description {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: justify;
+  color: #757575;
+}
+.detail .regular_price {
+  color: #67ad41;
+  font-size: 34px;
+  font-weight: 700;
+}
+.detail .regular_price.withOffer {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: line-through;
+}
+.detail .offer_price {
+  color: #ff1d1d;
+  font-size: 34px;
+  font-weight: 700;
+}
+.detail .currency {
+  font-size: 18px;
+  font-weight: 100;
+}
+.detail .options {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.detail .options a {
+  color: white;
+  background: white;
+  line-height: 40px;
+  padding: 0px 10px;
+  border: 1px solid #f8f8f8;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.2s all;
+}
+.detail .options a:hover {
+  background: #e7e7ec;
+}
+.detail .options a.green {
+  background: #67ad41;
+}
+.detail .options a.green:hover {
+  background: #62a23f;
+}
+.detail .options a span {
+  margin-left: 5px;
+}
+.detail .options a img {
+  height: 20px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+.detail .options a.myfavorite {
+  background-color: #67ad41;
+}
+.detail .options a.myfavorite svg path {
+  fill: white !important;
+}
+.detail .options .quantity {
+  width: 120px;
+  text-align: center;
+}
+.detail .options .quantity .input-group {
+  height: 40px;
+}
+.detail .options .quantity .input-group input {
+  text-align: center;
+}
+.detail .options .quantity .input-group .input-group-addon {
+  color: #67ad41;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s all;
+  background: #f4f4f4;
+}
+.detail .options .quantity .input-group .input-group-addon:hover {
+  background: #e7e7ec;
+}
+.detail .options > * {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.detail .share {
+  margin-top: 30px;
+}
+.detail .share .list-inline-item {
+  margin-top: 10px;
+}
+.detail .share .list-inline-item .item {
+  border: 1px solid #f8f8f8;
+  padding: 5px 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.detail .share .list-inline-item .item i {
+  margin-right: 10px;
+}
+.detail input[type=number] {
+  -moz-appearance: textfield;
+}
+.detail input::-webkit-outer-spin-button,
+.detail input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.details .nav-tabs {
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  padding: 10px 0px;
+}
+.details .nav-tabs a {
+  color: #757575;
+}
+.details .nav-tabs .nav-item {
+  width: 100%;
+  text-align: center;
+}
+.details .nav-tabs .nav-link {
+  border: 1px solid #f8f8f8;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 15px 55px;
+  border-radius: 0px;
+  transition: 0.2s all;
+}
+.details .nav-tabs .nav-link.active, .details .nav-tabs .nav-link:hover {
+  background: #f4f4f4;
+}
+.details .tab-pane {
+  padding: 20px 0px;
+  text-align: justify;
+}
+
+.list-forum {
+  color: #4b4b4b;
+}
+.list-forum .title {
+  margin-bottom: 22px;
+}
+.list-forum h2 {
+  font-weight: 600;
+}
+.list-forum hr {
+  height: 2px;
+}
+.list-forum form input, .list-forum form textarea {
+  background-color: #f8f8f8;
+  border: none !important;
+  color: #4b4b4b;
+  font-weight: 300;
+}
+.list-forum .item-list {
+  margin-top: 20px;
+}
+.list-forum .item-list .item {
+  border-bottom: 2px solid #f8f8f8;
+  padding: 15px 0;
+}
+.list-forum .item-list .item h4 {
+  color: #757575;
+  margin-right: 8px;
+}
+.list-forum .item-list .btn {
+  background-color: #f8f8f8;
+  border: 1px solid #e6e6e6;
+  color: #67ad41;
+  padding: 10px 0;
+}
+.list-forum.ratings .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-forum.questions .item-list .item h5 {
+  font-weight: 600;
+}
+.list-forum.questions .item-list .item a.user-name {
+  color: #757575;
+  text-decoration: underline;
+}
+.list-forum.questions .item-list .item .answer {
+  padding-left: 60px;
+  text-align: justify;
+}
+.list-forum.questions .item-list .item .answer b {
+  color: #67ad41;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.fa.fa-facebook {
+  color: #254993;
+}
+.fa.fa-twitter {
+  color: #209ee8;
+}
+.fa.fa-pinterest {
+  color: #c6293d;
+}
+
+@media (max-width: 768px) {
+  .detail .options {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .detail {
+    text-align: left;
+  }
+  .detail h1 {
+    margin-top: 0px;
+  }
+
+  .details .nav-tabs a {
+    color: #757575;
+  }
+  .details .nav-tabs .nav-item {
+    width: auto;
+  }
+  .details .nav-tabs .nav-link {
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=product-detail.css.map */

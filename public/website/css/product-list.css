@@ -1,0 +1,65 @@
+nav.navbar.paginado {
+  align-items: center;
+  border-bottom: 3px solid #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  padding: 15px;
+}
+nav.navbar.paginado .previousBtn, nav.navbar.paginado .nextBtn {
+  color: #495057;
+  text-decoration: none;
+}
+nav.navbar.paginado .previousBtn i, nav.navbar.paginado .nextBtn i {
+  border: 1px solid #eeeeee;
+  font-weight: 700 !important;
+  padding: 10px;
+}
+nav.navbar.paginado .previousBtn i.la-angle-left, nav.navbar.paginado .nextBtn i.la-angle-left {
+  margin-right: 15px;
+}
+nav.navbar.paginado .previousBtn i.la-angle-right, nav.navbar.paginado .nextBtn i.la-angle-right {
+  margin-left: 15px;
+}
+nav.navbar.paginado .previousBtn:hover, nav.navbar.paginado .nextBtn:hover {
+  color: #212529;
+  font-weight: bolder;
+}
+nav.navbar.paginado .previousBtn:hover i, nav.navbar.paginado .nextBtn:hover i {
+  background-color: #f7f7f7;
+  color: #5aa407;
+}
+nav.navbar.paginado ul.pagination li {
+  font-size: 20px;
+  padding: 10px;
+}
+nav.navbar.paginado ul.pagination li:first-child, nav.navbar.paginado ul.pagination li:last-child {
+  display: none;
+}
+nav.navbar.paginado ul.pagination li.active span {
+  color: #5aa407;
+  font-weight: 700;
+}
+nav.navbar.paginado ul.pagination li a {
+  color: #212529 !important;
+  text-decoration: none;
+}
+nav.navbar.paginado ul.pagination li a:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  nav.navbar.paginado {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  nav.navbar.paginado a, nav.navbar.paginado span {
+    padding: 10px 0;
+  }
+  nav.navbar.paginado ul.pagination {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=product-list.css.map */

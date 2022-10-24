@@ -1,0 +1,30 @@
+$text-title-gray:#717171;
+
+section.contact-us{
+    .contact-col{
+        textarea{
+            resize:none;
+        }
+        label.contatc-title{
+            color:$text-title-gray;
+        }
+        .btnContactSend{
+            letter-spacing: 1px;
+            width: 85%;
+        }
+    }
+
+    .info-col{
+        .line-top-separator{
+            border-top: 3px solid #f2f2f2;
+            margin-top: 11px;
+        }
+        p.sub-title-gray{
+            padding-top:5px;
+            margin-bottom:0px;
+            font-size:15px;
+            font-weight: 600;
+            color:$text-title-gray;
+        }
+    }
+}

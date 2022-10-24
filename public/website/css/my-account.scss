@@ -1,0 +1,227 @@
+$border:#f2f2f2;
+$backcolor:#fafafa;
+$green: #67ad41;
+$green-hover: #447a06;
+$text:#4a4a4a;
+$icon:#989898;
+$text-color: #757575;
+$offer:#ff1d1d;
+
+section.my-account{
+    padding:20px 0 30px;
+    .nav{
+        &.nav-tabs{
+            border:none;
+            .nav-item{
+                background-color:#fafafa;
+                border:1px solid $border;
+                border-radius: 0;
+                color:$text;
+                margin-bottom:0;
+                padding:10px 15px;
+                text-align: center;
+                width:25%;
+                word-wrap: break-word;
+                &.active{
+                    border-bottom:3px solid $green;
+                    font-weight:700;
+                }
+            }
+        }
+    }
+    .tab-content{
+        margin-top:15px;
+        &>.active{
+            padding:10px;
+        }
+        #mi-perfil{
+            label{
+                font-weight:600;
+                text-transform:uppercase;
+                &.lblVal{
+                    border-bottom:2px solid $border;
+                    font-weight:400;
+                    text-transform:initial;
+                    padding-left:5px;
+                    padding-bottom:5px;
+                }
+            }
+            .btnEdit,.btnSave{
+                font-weight:500;
+                padding: 5px 45px;
+                text-transform:uppercase;
+            }
+            .btnSave{
+                padding: 5px 86px;
+            }
+        }
+        #favoritos{
+            .products-favorite{
+                color: $text;
+                .title-row{
+                    background-color:$backcolor;
+                    display: flex;
+                    font-weight: 600;
+                    padding:10px 0;
+                    text-align: center;
+                }
+                .item{
+                    border-bottom:1px solid $border;
+                    display: flex;
+                    flex-wrap:wrap;
+                    padding:10px 0;
+                    div{
+                        justify-content: center;
+                    }
+                    .description,.prices,.actions{
+                        display: flex;
+                        flex-direction:column;
+                    }
+                    .description .title{
+                        font-size:14px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                    }
+                    .prices{
+                        text-align: center;
+                        .offer_price{
+                            color:$text-color;
+                            font-size: 18px;
+                            font-weight: 100;
+                            text-decoration: line-through;
+                        }
+                        .regular_price{
+                            color:$green;
+                            font-size: 25px;
+                            font-weight: 700;
+                            &.withOffer{                                
+                                color:$offer;
+                                .currency{
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                        .currency{
+                            font-size: 18px;
+                            font-weight: 100;
+                        }
+                    }
+                    .actions{
+                        .btn-default{
+                            background-color:$border;
+                            border-bottom:2px solid $icon;
+                            color:$icon;
+                        }
+                        .btn-primary{
+                            border-bottom:2px solid $green-hover;
+                        }
+                    }
+                }
+            }
+        }
+        #mis-pedidos{
+            .table{
+                tr{
+                    &:first-child{
+                        td{
+                            border-top:none;
+                        }
+                    }                     
+                    th{
+                        background-color: #fbfbfb;
+                        border:none;
+                        color: $text;
+                        font-size: 14px;
+                        padding: 8px 15px;
+                        text-transform: uppercase;
+                        text-align: center;
+                        width:20%;                    
+                    }
+                    td{
+                        border-top:1px solid $border;
+                        border-bottom:1px solid $border;
+                        cursor:pointer;
+                        text-align: center;
+                        i{
+                            color:$green;
+                        }
+                        &:nth-last-child(2){
+                            font-weight:700;
+                        }
+                    }
+                }                
+            }
+        }
+        #direcciones{
+            .card{
+                border:none;
+                .card-title{
+                    background:$backcolor;
+                    color:$text;
+                    display:flex;
+                    flex-flow:row;
+                    justify-content: space-between;
+                    padding:12px;
+                    text-transform: uppercase;
+                    h6{
+                        font-weight:600;
+                    }
+                    a{
+                        &:first-child{
+                            margin-right:6px;
+                        }
+                        i{
+                            color:$icon;
+                            font-size:20px;
+                        }
+                    }
+                }
+                .card-text{
+                    padding:12px 14px;
+                }
+            }
+            form{
+                label{
+                    font-weight:600;
+                    text-transform:uppercase;
+                }
+                .btn{
+                    padding: 5px 35px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px){}
+@media (max-width: 768px){
+
+    section.my-account{
+        .tab-content{
+            #favoritos{
+                 .products-favorite {
+                     a{
+                        .item{
+                            .actions{
+                              flex-direction:row;  
+                              .btn{
+                                  width:50%;
+                              }
+                            }
+                            .prices{
+                                font-size:26px;
+                                padding-right:30px;
+                                text-align: right;
+                            }
+                        } 
+                     } 
+                 }
+            }
+        }
+        .hidden-sm-down{
+            display: none!important;
+        }
+    }
+}
+@media (min-width: 992px){}
+@media (min-width: 1200px){}

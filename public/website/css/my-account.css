@@ -1,0 +1,182 @@
+section.my-account {
+  padding: 20px 0 30px;
+}
+section.my-account .nav.nav-tabs {
+  border: none;
+}
+section.my-account .nav.nav-tabs .nav-item {
+  background-color: #fafafa;
+  border: 1px solid #f2f2f2;
+  border-radius: 0;
+  color: #4a4a4a;
+  margin-bottom: 0;
+  padding: 10px 15px;
+  text-align: center;
+  width: 25%;
+  word-wrap: break-word;
+}
+section.my-account .nav.nav-tabs .nav-item.active {
+  border-bottom: 3px solid #67ad41;
+  font-weight: 700;
+}
+section.my-account .tab-content {
+  margin-top: 15px;
+}
+section.my-account .tab-content > .active {
+  padding: 10px;
+}
+section.my-account .tab-content #mi-perfil label {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section.my-account .tab-content #mi-perfil label.lblVal {
+  border-bottom: 2px solid #f2f2f2;
+  font-weight: 400;
+  text-transform: initial;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+section.my-account .tab-content #mi-perfil .btnEdit, section.my-account .tab-content #mi-perfil .btnSave {
+  font-weight: 500;
+  padding: 5px 45px;
+  text-transform: uppercase;
+}
+section.my-account .tab-content #mi-perfil .btnSave {
+  padding: 5px 86px;
+}
+section.my-account .tab-content #favoritos .products-favorite {
+  color: #4a4a4a;
+}
+section.my-account .tab-content #favoritos .products-favorite .title-row {
+  background-color: #fafafa;
+  display: flex;
+  font-weight: 600;
+  padding: 10px 0;
+  text-align: center;
+}
+section.my-account .tab-content #favoritos .products-favorite .item {
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+section.my-account .tab-content #favoritos .products-favorite .item div {
+  justify-content: center;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .description, section.my-account .tab-content #favoritos .products-favorite .item .prices, section.my-account .tab-content #favoritos .products-favorite .item .actions {
+  display: flex;
+  flex-direction: column;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .description .title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .prices {
+  text-align: center;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .prices .offer_price {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: line-through;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .prices .regular_price {
+  color: #67ad41;
+  font-size: 25px;
+  font-weight: 700;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .prices .regular_price.withOffer {
+  color: #ff1d1d;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .prices .regular_price.withOffer .currency {
+  font-size: 18px;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .prices .currency {
+  font-size: 18px;
+  font-weight: 100;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .actions .btn-default {
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #989898;
+  color: #989898;
+}
+section.my-account .tab-content #favoritos .products-favorite .item .actions .btn-primary {
+  border-bottom: 2px solid #447a06;
+}
+section.my-account .tab-content #mis-pedidos .table tr:first-child td {
+  border-top: none;
+}
+section.my-account .tab-content #mis-pedidos .table tr th {
+  background-color: #fbfbfb;
+  border: none;
+  color: #4a4a4a;
+  font-size: 14px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 20%;
+}
+section.my-account .tab-content #mis-pedidos .table tr td {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  cursor: pointer;
+  text-align: center;
+}
+section.my-account .tab-content #mis-pedidos .table tr td i {
+  color: #67ad41;
+}
+section.my-account .tab-content #mis-pedidos .table tr td:nth-last-child(2) {
+  font-weight: 700;
+}
+section.my-account .tab-content #direcciones .card {
+  border: none;
+}
+section.my-account .tab-content #direcciones .card .card-title {
+  background: #fafafa;
+  color: #4a4a4a;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 12px;
+  text-transform: uppercase;
+}
+section.my-account .tab-content #direcciones .card .card-title h6 {
+  font-weight: 600;
+}
+section.my-account .tab-content #direcciones .card .card-title a:first-child {
+  margin-right: 6px;
+}
+section.my-account .tab-content #direcciones .card .card-title a i {
+  color: #989898;
+  font-size: 20px;
+}
+section.my-account .tab-content #direcciones .card .card-text {
+  padding: 12px 14px;
+}
+section.my-account .tab-content #direcciones form label {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section.my-account .tab-content #direcciones form .btn {
+  padding: 5px 35px;
+}
+
+@media (max-width: 768px) {
+  section.my-account .tab-content #favoritos .products-favorite a .item .actions {
+    flex-direction: row;
+  }
+  section.my-account .tab-content #favoritos .products-favorite a .item .actions .btn {
+    width: 50%;
+  }
+  section.my-account .tab-content #favoritos .products-favorite a .item .prices {
+    font-size: 26px;
+    padding-right: 30px;
+    text-align: right;
+  }
+  section.my-account .hidden-sm-down {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=my-account.css.map */

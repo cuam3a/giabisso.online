@@ -1,0 +1,68 @@
+$red: #d11932;
+$footer: #f2f2f2;
+$orange: #f7921e;
+$orange-hover: #e78b21;
+$green-light: #67ad41;
+$green-light-hover: #5d9e3a;
+$text-color: #757575;
+
+.login{
+    padding: 0px 0px 40px;
+    text-align: center;
+
+    .required{
+        color: $red;
+    }
+
+    .title{
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    input:not([type="checkbox"]){
+        height: 40px;
+        background: $footer;
+    }
+
+    a{
+        color: $text-color;
+        text-decoration: underline;
+    }
+    .form-check-label .form-check-input{
+        margin-top:0.4rem!important;
+    }
+
+    button[type="submit"]{
+        width: 100%;
+        height: 40px;
+        color: white;
+        text-transform: uppercase;
+        background: $orange;
+        font-size: 14px;
+        font-weight: bold;
+        transition: .2s all;
+
+        &:hover{
+            background: $orange-hover;
+        }
+
+        &.green{
+            background: $green-light;
+
+            &:hover{
+                background: $green-light-hover;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px){}
+@media (min-width: 768px){
+    .login{
+        text-align: left;
+    }
+}
+@media (min-width: 992px){}
+@media (min-width: 1200px){}

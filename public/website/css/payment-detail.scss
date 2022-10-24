@@ -1,0 +1,83 @@
+$text-color: #757575;
+$title-color: #212529;
+$green: #67ad41;
+$green-hover: #62a23f;
+$border: #757575;
+$border-top:#cacaca;
+$backcolor:#f9f9f9;
+
+section.payment-detail{
+    color:$text-color;
+    padding:30px 0;
+    .table-products{
+        thead{
+            th{
+                border:none;
+                color:$title-color;
+                font-size:24px;
+                padding-bottom:5px;
+            }
+        }
+        tr{
+            &.heading td{
+                background-color:$backcolor;
+                color:$text-color;
+                font-size:14px;
+                font-weight:700;
+                padding:8px 15px;
+                text-transform:uppercase;
+                &:first-child,&:nth-last-child(2),&:last-child{
+                    width:15%;
+                }
+            }
+            td{
+                vertical-align: middle!important;
+                 &:first-child,&:nth-last-child(2),&:last-child{
+                    text-align:center;
+                }
+                &:last-child,small{
+                    font-weight:700;
+                }
+            }
+            img{
+                margin-right:20px;
+                max-height: 80px;
+            }
+        }
+    }
+
+    .total{
+        border:1px solid $border-top;
+        margin-bottom:20px;
+        padding:15px 0 5px;
+        label,span{
+            font-size: 14px!important;
+            font-weight: 600;
+            float:right;
+            &.totalLbl{
+                font-size: 20px!important;
+            }
+        }
+    }
+    .pay-detail,.delivery{        
+        border-top:1px solid $border-top;
+    }
+    .delivery{
+        background-color:$backcolor;        
+        padding:15px;
+    }
+    .pay-detail{        
+        .table{            
+            th,td{
+                font-weight:400!important;
+                padding:4px 10px;
+                text-align:left!important;
+                a{
+                    &:hover{                        
+                        text-decoration:none;
+                    }
+                }
+            }
+        }
+    }
+}

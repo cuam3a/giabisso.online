@@ -1,0 +1,17 @@
+$borderOrder:#e8e8e8;
+$primary:#019245;
+$primary-hover:#519504;
+$primary-border:#447a06;
+$main-color:#4a4a4a;
+$grey-enable:#f0f2f3;
+
+section.delivery-info{
+    h4:not(.cart){
+        border-bottom:1px solid $primary;
+        margin-bottom:20px;
+        padding: 10px 0;
+    }
+    .facturacion{
+        display:none;
+    }
+}

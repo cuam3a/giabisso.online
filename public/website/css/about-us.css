@@ -1,0 +1,105 @@
+section.about-banner {
+  background-image: url("/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section.about-banner .banner {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+section.about-banner .banner .item {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+  text-align: center;
+  width: 30%;
+}
+
+section.about-banner .banner .item .item-body {
+  margin-top: 10px;
+}
+
+section.about-collapse {
+  padding: 45px 0 50px;
+}
+
+section.about-collapse .title {
+  margin-bottom: 35px;
+}
+
+section.about-collapse .card {
+  border: none;
+  border-radius: 0;
+}
+
+section.about-collapse .card .card-header {
+  background-color: #fff;
+  border-bottom: 3px solid #e7e7e7;
+  padding: 0;
+}
+
+section.about-collapse .card .card-header h5 a {
+  color: #4c4c4c;
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+section.about-collapse .card .card-header h5 a .arrow {
+  color: #4c4c4c;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 12px 15px;
+}
+
+section.about-collapse .card .card-header h5 a .arrow:before {
+  content: "\f2c2";
+  font-family: LineAwesome;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+section.about-collapse .card .card-header.active {
+  background: #f2f2f2;
+}
+
+section.about-collapse .card .card-header.active .arrow:before {
+  content: "\f28e";
+  font-family: LineAwesome;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+section.about-collapse .card .card-body {
+  padding-left: 14px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  section.about-banner {
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  section.about-banner .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  section.about-banner .banner .item {
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+  }
+  section.about-banner .banner .item img {
+    max-height: 82px;
+  }
+}
+/*# sourceMappingURL=about-us.css.map */

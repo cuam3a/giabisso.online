@@ -1,0 +1,25 @@
+table tr img{
+    width:50px;
+}
+table tr input[type=checkbox]{
+    width: 30px; /*Desired width*/
+    height: 30px; /*Desired height*/
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    border:2px solid #bbb;
+    border-radius:2px;
+    padding:2px;
+}
+
+.selected{
+    background: #5aa407;
+    background-clip: content-box;
+
+}
+
+.btn-common{
+    background:#5aa407;
+    color:#FFF;
+    padding:10px 20px;
+}
